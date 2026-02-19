@@ -3,8 +3,8 @@
 ## Create a new repository and push to a Global Repository
 
 ### Remote Directory
-<li>Using Github to create the remote direcotry</li>
-	&emsp;&emsp; do not include a description or when the local repository is pushed to the global repository there will be a conflict.
+Using Github to create the remote direcotry<br>
+	&emsp;&emsp; Do not include a description or when the local repository is pushed to the global repository there will be a conflict.
 
 ### Local Repository 
 
