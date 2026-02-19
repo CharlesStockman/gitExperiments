@@ -4,7 +4,7 @@
 
 ### Remote Directory
 <li>Using Github to create the remote direcotry</li>
-	&emsp;&emsp; do not include a description or when the new repository is pushed there will a conflict.
+	&emsp;&emsp; do not include a description or when the local repository is pushed to the global repository there will be a conflict.
 
 ### Local Repository 
 
