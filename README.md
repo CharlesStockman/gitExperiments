@@ -10,6 +10,7 @@ Using Github to create the remote direcotry<br>
 
 <details>
 <summary>Transform a directory into a Git Repository</summary>
+
 |Command|Description|
 |-------|-----------|
 | git init | Create a working directory from a normal directory by adding a .git directory |
@@ -17,6 +18,7 @@ Using Github to create the remote direcotry<br>
 
 <details>
 <summary>Put a File Under Version Control</summary>
+
 |Command|Description|
 |-------|-----------|
 | git add . | Move the files to the staging area                |
