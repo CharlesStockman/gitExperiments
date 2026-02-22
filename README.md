@@ -41,8 +41,10 @@ Using Github to create the remote direcotry<br>
 |-------|-----------|
 |git checkout -b feature/authentication|Create the branch \"feature/authentication\" and mak it the current branch| 
 |No Command |Create the files authentication.js and LoginForm.hmtl|
-|git add .  ||
+|git add .  |
 |git commit -m "Added the Authentication feature||
+|git push --set-upstream origin feature/authentication|fatal: The current branch feature/authentication has no upstream branch.<br>To push the current branch and set the remote as upstream<br><br>git push --set-upstream origin feature/authentication
+|
 |git checkout master | 1st part of merge: checkout the branch being merged to.|
 |git merge feature/authentication | 2nd part of the merge |
 
