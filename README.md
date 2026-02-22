@@ -35,6 +35,18 @@ Using Github to create the remote direcotry<br>
 </details>
 
 
+##  Creating a branch and merging.
+
+|Command|Description|
+|-------|-----------|
+|git checkout -b feature/authentication|Create the branch \"feature/authentication\" and mak it the current branch| 
+|No Command |Create the files authentication.js and LoginForm.hmtl|
+|git add .  ||
+|git commit -m "Added the Authentication feature||
+|git checkout master | 1st part of merge: checkout the branch being merged to.|
+|git merge feature/authentication | 2nd part of the merge |
+
+
 ## Git Amend
 
 <details>
