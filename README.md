@@ -44,8 +44,9 @@ Using Github to create the remote direcotry<br>
 |git add .  |
 |git commit -m "Added the Authentication feature||
 |git push --set-upstream origin feature/authentication|fatal: The current branch feature/authentication has no upstream branch.<br>To push the current branch and set the remote as upstream<br><br>git push --set-upstream origin feature/authentication|
-|git checkout main | 1st part of merge: checkout the branch being merged to.|
+|git checkout main | 1st part of merge |
 |git merge feature/authentication | 2nd part of the merge |
+|git push                         | 3rd part of the merge
 
 
 ## Git Amend
