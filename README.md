@@ -34,20 +34,21 @@ Using Github to create the remote direcotry<br>
 | git push -u origin main | The -u flag sets the "upstream" tracking relationship between your local branch and the remote branch.<br> After running this once, git remembers the connection so future pushes/pulls can just be git push or git pull without specifying origin main every time.
 </details>
 
-
-##  Creating a branch and merging.
+## Branching
+<details>
+<summary>Creating a branch and merging the branch into the main.</summary>
 
 |Command|Description|
 |-------|-----------|
 |git checkout -b feature/authentication|Create the branch \"feature/authentication\" and mak it the current branch| 
-|No Command |Create the files authentication.js and LoginForm.hmtl|
+|No Command |Create the files authentication.js and LoginForm.html|
 |git add .  |
 |git commit -m "Added the Authentication feature||
 |git push --set-upstream origin feature/authentication|fatal: The current branch feature/authentication has no upstream branch.<br>To push the current branch and set the remote as upstream<br><br>git push --set-upstream origin feature/authentication|
 |git checkout main | 1st part of merge |
 |git merge feature/authentication | 2nd part of the merge |
 |git push                         | 3rd part of the merge
-
+</details>
 
 ## Git Amend
 
