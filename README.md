@@ -56,8 +56,7 @@ Using Github to create the remote direcotry<br>
 |Command|Description|
 |-------|-----------|
 |git clone https://github.com/CharlesStockman/gitExperiments.git | In a different directory do a git clone  and this directory should be known as \"git2\"|
-|Inside the original repsitory do the following:<br>git checkout -b feature/backend<br>echo "service 1" > service1.js<br>git add service1.js<br>git commit -m "Added service1 to the app"</br> git push --set-upstream origin feature/backend<br>git checkout main<br>git merge feature/backend<br>git push<br>
-</details>|
+|Inside the original repsitory do the following:<br>git checkout -b feature/backend<br>echo "service 1" > service1.js<br>git add service1.js<br>git commit -m "Added service1 to the app"</br> git push --set-upstream origin feature/backend<br>git checkout main<br>git merge feature/backend<br>git push<br>|
 | cd into \"git2\" | Go back into the directory created as the first step|
 | git fetch        | Downloads changes from a remote repository (like GitHub) into your local repository, but doesn't merge them into your working branch |
 | git diff origin/main | Show the difference for branch and the contents of the local repoistory ( which were updated when the fest was executed).
